@@ -1,0 +1,44 @@
+/* Palette */
+.palettes {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.palette {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid #eee;
+}
+
+.palette-primary {
+  background: var(--primary);
+}
+.palette-secondary {
+  background: var(--secondary);
+}
+.palette-tertiary {
+  background: var(--tertiary);
+}
+.palette-success {
+  background: var(--success);
+}
+.palette-warning {
+  background: var(--warning);
+}
+.palette-error {
+  background: var(--error);
+}
+.palette-neutral {
+  background: var(--neutral);
+}
+.palette-grey {
+    background: var(--grey);
+  }
+.palette-white {
+  background: var(--white);
+}
+.palette-black {
+  background: var(--black);
+}
